@@ -1,0 +1,14 @@
+{
+  "name": "01-challenge",
+  "version": "1.0.0",
+  "description": "Whiteboard coding challenge 01",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "Tyler Anyan",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^23.6.0"
+  }
+}
