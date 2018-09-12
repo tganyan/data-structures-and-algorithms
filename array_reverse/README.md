@@ -6,4 +6,4 @@ Write a function called reverseArray which takes an array as an argument. Withou
 
 Due to time constraints and some issues with understanding jest, tests have not yet been implemented. I felt it was more important to have this turned in before the deadline and will be happy to revisit the testing portion of this assignment.
 
-![Whiteboarding image](https://github.com/tganyan/data-structures-and-algorithms/blob/array_reverse/array_reverse/img/array_reverse.jpg "Whiteboarding image")
+![Whiteboarding image](https://github.com/tganyan/data-structures-and-algorithms/array_reverse/assets/array_reverse.jpg "Whiteboarding image")
