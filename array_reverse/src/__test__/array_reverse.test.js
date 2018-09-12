@@ -1,29 +1,18 @@
 'use strict';
 
 const arrayReve = require('../array_reverse');
+const reverse = arrayReve.reverseArray();
 
 describe('#array_reverse.js', () => {
     test('is the first item in storedInput equal to the last item in returned array', () => {
-
-
-
-        const aNumber = 5;
-        expect(aNumber).toEqual(5);
-
-        const fifty = 50;
-        expect(fifty).toBeLessThan(100);
-        expect(fifty).toBeGreaterThan(25);
+        expect(reverse).toEqual(reverse.reverse());
     });
 
-    test('Showcasing how to add another test', () => {
-        const aTruthyValue = 'hi';
-        expect(aTruthyValue).toBeTruthy();
-
-        const aFalsyValue = 0;
-        expect(aFalsyValue).toBeFalsy();
-        expect(aFalsyValue).not.toBeTruthy();
+    test('Is function returning a value', () => {
+        expect(reverse).not.toEqual('' || undefined);
     });
 });
 
 
-// Test 1:
+// Test 1: Check to make sure the returned value is the reverse of the provided argument
+// Test 2: Check to make sure the function is returning a value
