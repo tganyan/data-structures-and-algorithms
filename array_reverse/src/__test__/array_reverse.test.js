@@ -1,15 +1,17 @@
 'use strict';
 
 const arrayReve = require('../array_reverse');
-const reverse = arrayReve.reverseArray();
+// const reverse = arrayReve.reverseArray();
+const testArr = ['item1', 'item2', 'item3', 4, 'item5', 'item6', 'target', 8, 'item9', 'item10'];
 
 describe('#array_reverse.js', () => {
     test('is the first item in storedInput equal to the last item in returned array', () => {
-        expect(reverse).toEqual(reverse.reverse());
+
+        expect(arrayReve.reverseArray(testArr)).toEqual(['item10', 'item9', 8, 'target', 'item6', 'item5', 4, 'item3', 'item2', 'item1']);
     });
 
     test('Is function returning a value', () => {
-        expect(reverse).not.toEqual('' || undefined);
+        expect(arrayReve.reverseArray(testArr)).not.toEqual('' || undefined);
     });
 });
 
