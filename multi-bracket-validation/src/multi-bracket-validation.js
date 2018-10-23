@@ -27,17 +27,17 @@ multiBrackets.validator = (string) => {
       poppedVal = myStack.pop();
       switch (poppedVal) {
         case '{':
-          if (string[string.length - i] === '}') {
+          if (string[(string.length - 1) - i] === '}') {
             returnValue = true;
           }
           break;
         case '(':
-          if (string[string.length - i] === ')') {
+          if (string[(string.length - 1) - i] === ')') {
             returnValue = true;
           }
           break;
         case '[':
-          if (string[string.length - i] === ']') {
+          if (string[(string.length - 1) - i] === ']') {
             returnValue = true;
           }
           break;
